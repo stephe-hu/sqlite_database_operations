@@ -67,6 +67,7 @@ healthdata = pd.read_sql("select * from health_data;", conn)
 healthdata
 ```
 The subsequent steps are to automatically create a SQLite database and a table.
+
 7. Load in data
 ```
 df = pd.read_csv('https://raw.githubusercontent.com/stephe-hu/sqlite_database_operations/main/data/stonybrook.csv')
